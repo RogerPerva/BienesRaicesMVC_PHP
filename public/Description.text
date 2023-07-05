@@ -1,0 +1,22 @@
+El modelo vista controlador (MVC) es una arquitectura de software que separa la lógica de la aplicación en tres componentes principales: el modelo (manejo de datos), la vista 
+(interfaz de usuario) y el controlador (manejo de la lógica y la interacción entre modelo y vista).
+
+El modelo: representa los datos y la lógica relacionada con las tareas. Puede haber una clase "Tarea" con propiedades como título, descripción y estado. Además, puede haber una 
+clase "GestorTareas" que se encargue de administrar y almacenar las tareas.
+
+La vista: es la interfaz de usuario que permite al usuario interactuar con el sistema de gestión de tareas. Podría ser una interfaz gráfica con elementos como botones, listas y 
+formularios para mostrar y manipular las tareas.
+
+El controlador: actúa como intermediario entre el modelo y la vista. Recibe las acciones del usuario desde la vista, actualiza el modelo según sea necesario y actualiza la vista 
+para reflejar los cambios. Por ejemplo, cuando el usuario crea una nueva tarea, el controlador recibe los datos de la vista, crea una instancia de la clase "Tarea" en el modelo y 
+actualiza la vista para mostrar la nueva tarea en la lista
+
+
+-.Todo lo que esta en public es donde el usuario puede acceder/ver.-
+
+Dentro de este va el archivo pricipal donde se llama a otros, css, o archivos js.
+
+----- Archivo Router: nos ayuda a registrar todas las url que tenemos acceso o soporta nuestro proyecto y que controlador con que metodo sera utilizado.
+
+---Personal: Index donde tenemos todas las urls posibles, desde ahi emprezamos a llamar con ayuda del router a las vistas, las cuales a su vez llaman a sus controladores que son los que llenan
+esas vistas y estos controladores estan respaldados por un modelo.

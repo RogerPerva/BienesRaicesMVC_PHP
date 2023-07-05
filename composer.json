@@ -1,0 +1,22 @@
+{
+    "name": "ulises/bienesraices",
+    "description": "Proyecto creado con programacion orientada a objetos",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Rogelio U.",
+            "email": "ulisescodi@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./models" ,
+            "Controllers\\": "./controllers",
+            "MVC\\": "./"
+        }
+    }
+}
