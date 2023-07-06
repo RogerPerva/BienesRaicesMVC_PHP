@@ -1,8 +1,9 @@
 # BienesRaicesMVC_PHP
 ### I'm keep working in some sections.
-            ###### I M P O R T A N T #####
-##### --->> Link to project: https://bienesraices-mvc-php.domcloud.io/     <<---- #####
-##### ---->> For log in, please use: corre@correo.com and pass: 123456  <<<---- #####
+                    ###### I M P O R T A N T ##### 
+    ---->>  Link to project: https://bienesraices-mvc-php.domcloud.io/    <<----
+    ---->>  For log in, please use: corre@correo.com and pass: 123456  <<----
+           
 
 Deployment del proyecto de bienes raices PHP en MVC.
 PHP7.4
